@@ -1,0 +1,282 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.botr {
+    height: 640px;
+    background-color: white;
+    height: 430px;
+    border-radius: 16px;
+    display: flex;
+    box-shadow: 11px 12px 49px rgb(218, 218, 226);
+}
+
+.fder {
+    height: 430px;
+    width: 300px;
+    background: #4c2bf0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Result {
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+}
+
+.Result samp {
+    font-family: var(--font1);
+
+    color: #d6cfcf;
+}
+
+.Nuber {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    background: linear-gradient(180deg, #3b1ec6 -70%, #3b1ec6, transparent);
+    top: 25px;
+    position: relative;
+}
+
+.d21-1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: var(--font2);
+}
+
+.d21,
+.d21-s {
+    font-size: 13px;
+    color: #ffffff75;
+}
+
+.d21 {
+    font-family: var(--font2);
+}
+
+.d21-s {
+
+    font-family: var(--font1)
+}
+
+.gfg {
+    position: relative;
+    bottom: 10px;
+}
+
+.Hdee {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.Hdee samp {
+    font-family: var(--font1);
+    color: white;
+}
+
+.trffdfd {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    position: relative;
+    bottom: 20px;
+}
+
+.trffdfd p {
+    font-family: var(--font1);
+    color: #ffffffad;
+    font-size: 15px;
+}
+
+.T-1 {
+    position: relative;
+    right: 75px;
+    bottom: 10px;
+}
+
+.T-1 samp {
+    font-size: 20px;
+    font-family: var(--font2);
+    color: #313161;
+}
+
+.x-U-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 379px;
+    width: 335px;
+    position: relative;
+    bottom: 20px;
+}
+
+.x-UA {
+    margin-left: 15px;
+    z-index: 2;
+    font-size: 14px;
+    font-family: var(--font1);
+    color: black;
+}
+
+.x-UA samp {
+    color: #0000008c;
+    font-family: var(--font1);
+}
+
+.drrv {
+    color: #0000008c;
+    font-family: var(--font1);
+    margin-right: 7px;
+    z-index: 2;
+    font-size: 14px;
+    font-family: var(--font1)
+}
+
+/* .grtr-1,
+.grtr-2,
+.grtr-3,
+.grtr-4 {
+    position: absolute;
+    left: 160px;
+} */
+.X-UA-Compatible {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 45px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px 0px;
+
+}
+
+.X-UA-Compatible::before {
+    content: "";
+    position: absolute;
+    inset: 2px 1px;
+    background: linear-gradient(35deg, #ffffff, #ffffff);
+    transition: 0.6s;
+    animation: animate 4s linear infinite;
+
+}
+
+
+
+.X-UA-Compatible::after {
+    content: "";
+    position: absolute;
+    inset: 0px;
+
+
+}
+
+.i-1::after {
+    background-color: rgb(255, 244, 244);
+}
+
+.i-2::after {
+    background-color: rgb(255, 255, 226);
+}
+
+.i-3::after {
+    background-color: rgb(241, 255, 241);
+}
+
+.i-4::after {
+    background-color: rgb(244, 244, 255);
+}
+
+
+
+.s-1 {
+    color: #dd6161;
+
+}
+
+.s-2 {
+    color: #dbba0d;
+}
+
+.s-3 {
+    color: #0bb990;
+}
+
+.s-4 {
+    color: #1010b4;
+}
+
+.ko-1 {
+    margin-right: 8px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bnt-codnf {
+    position: relative;
+    bottom: 45px;
+
+}
+
+.dn-1 {
+    color: #dd6161;
+}
+
+.dn-2 {
+    color: #dbba0d;
+}
+
+.dn-3 {
+    color: #0bb990;
+
+}
+
+.dn-4 {
+    color: #1010b4;
+
+}
+
+.dw {
+    width: 70%;
+    height: 45px;
+    border-radius: 35px;
+    border: 2px solid rgb(69, 69, 117);
+    background-color: rgb(69, 69, 117);
+    color: white;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+}

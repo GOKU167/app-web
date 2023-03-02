@@ -1,0 +1,59 @@
+@media screen and (max-width: 680px) {
+    .botr {
+      width: 320px;
+        background-color: white;
+        height: 840px;
+        border-radius: 16px;
+        display: flex;
+        box-shadow: 11px 12px 49px rgb(218, 218, 226);
+        position: relative;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 840px;
+      }
+      .hfd-2{
+        position: absolute;
+        top: 430px;
+        right: 0px;
+        z-index: 3;
+      }
+      .U-all {
+        position: relative;
+        left: 15px;
+      }
+      .fder {
+        height: 430px;
+        width: 321px;
+        background: #583aec;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        left: 0px;
+        z-index: 3;
+      }
+      .X-UA-Compatible {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: 45px;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px 0px;
+        right: 10px;
+      }
+      .T-1 {
+        position: relative;
+        right: 100px;
+        bottom: 10px;
+      }
+}

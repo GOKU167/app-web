@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+:root {
+    --main-bg-color: black;
+    --main-bg-color1: gray;
+    --main-bg-color2: orange;
+    --font1: 'Kanit', sans-serif;
+    --font2: 'Rubik', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.btn {
+
+    padding: 1px 8px;
+    border-radius: 5px;
+    font-family: var(--font1);
+
+
+}
+
+.dw:hover {
+    cursor: pointer;
+    width: 65%;
+
+    background-color: rgb(26, 26, 56);
+}
+
+
+
+.form-input {
+    padding: 2px 4px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 0px 9px;
+    font-family: var(--font1);
+}
+
+.form-box input,
+textarea {
+    width: 40vw;
+    padding: 8px 7px;
+    margin: 8px;
+    font-family: var(--font1);
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.grtf-1:hover,
+.grtf-2:hover,
+.grtf-3:hover,
+.grtf-4:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    width: 75%;
+    height: 45px;
+}
